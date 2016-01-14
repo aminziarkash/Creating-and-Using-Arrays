@@ -38,7 +38,7 @@ public class Application {
         list.add(s);
         list.add(29);
         list.add(1, "Quasar");
-        System.out.println(list);
+        System.out.println("ArrayList content\t:\t" + list);
 
         boolean bool = list.contains("Quasar");
         System.out.println("Does the list contain 'Quasar'\t:\t" + bool);
@@ -61,8 +61,6 @@ public class Application {
     }
 
     private static void oneDimensionalArrays(){
-        int[] myInts = new int[]{1,2,3};
-
         String[] myStrings = new String[3];
         myStrings[0] = "a";
         myStrings[1] = "b";
